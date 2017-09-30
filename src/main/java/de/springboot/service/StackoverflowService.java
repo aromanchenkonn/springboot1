@@ -14,7 +14,7 @@ public class StackoverflowService {
                 new StackoverflowWebsite(
                         "https://www.santouka.co.jp/wp/wp-content/themes/santouka/img/home/icon-mark.png"
                         , "stackoverflow"
-                        , "https://www.google.com"
+                        , "http://www.google.com"
                         , "#1 name"
                         , "#1 link"));
     }
