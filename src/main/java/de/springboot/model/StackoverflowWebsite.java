@@ -1,5 +1,7 @@
 package de.springboot.model;
 
+import org.springframework.web.bind.annotation.ResponseBody;
+
 public class StackoverflowWebsite {
     private final String iconImageUrl;
     private final String id;
