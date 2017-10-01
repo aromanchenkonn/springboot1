@@ -1,10 +1,14 @@
 package de.springboot.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+@Document
 public class StackoverflowWebsite {
-    private final String iconImageUrl;
+    @Id
     private final String id;
+    private final String iconImageUrl;
     private final String website;
     private final String title;
     private final String description;
